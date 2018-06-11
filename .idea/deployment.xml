@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="www.oc-drupal.com" createEmptyFolders="true">
+    <serverData>
+      <paths name="www.oc-drupal.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/sgalata/www/sgalata/web" local="$PROJECT_DIR$" web="/home/sgalata/www/sgalata/web/prime_numbers.php" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
