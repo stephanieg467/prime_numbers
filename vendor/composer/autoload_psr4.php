@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    's9e\\TextFormatter\\' => array($vendorDir . '/s9e/text-formatter/src'),
 );

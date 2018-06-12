@@ -15,20 +15,8 @@
   ],
 
   "require": {
-    "monolog/monolog": "1.0.*"
-  },
-
-  "config": {
-    /*All dependancies will be cloned via git instead of downloaded and extracted*/
-    "preferred-install": "source",
-    /*If you are working with Composer Patches and preferred-install: source*/
-    "discard-changes": true,
-    /*sort all your packages inside the composer.json in alphabetical order*/
-    "sort-packages": true,
-    /*we always fix / force the PHP version in our composer to match the current live system*/
-    "platform": {
-      "php": "7.1.9"
-    }
+    "monolog/monolog": "1.0.*",
+    "s9e/text-formatter": "^1.2"
   }
 
 }

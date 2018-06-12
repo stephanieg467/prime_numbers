@@ -5,7 +5,7 @@
       <paths name="www.oc-drupal.com">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/sgalata/www/sgalata/web" local="$PROJECT_DIR$" web="/home/sgalata/www/sgalata/web/prime_numbers.php" />
+            <mapping deploy="/www/sgalata/web" local="$PROJECT_DIR$" web="/www/sgalata/web" />
           </mappings>
         </serverdata>
       </paths>

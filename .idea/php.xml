@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/s9e/text-formatter" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="ssh://sgalata@www.oc-drupal.com:22/usr/bin/php" id="35c78d97-270c-4516-8724-e53665061060" name="Remote PHP 7" debugger_id="php.debugger.XDebug">
