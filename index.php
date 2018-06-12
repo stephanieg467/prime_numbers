@@ -4,6 +4,7 @@ include __DIR__ . '/vendor/autoload.php';
 
 use s9e\TextFormatter\Bundles\Fatdown as TextFormatter;
 
+/*
 $text = 'To-do list:
 
   * Say hello to the world :(
@@ -16,9 +17,10 @@ $xml = TextFormatter::parse($text);
 
 // Render and output the HTML result
 echo TextFormatter::render($xml);
+*/
 
-/*
- * //By definition, a prime number is a whole number greater than 1 that can be factored only by 1 and itself.
+
+//By definition, a prime number is a whole number greater than 1 that can be factored only by 1 and itself.
 
 //this function will find and display all prime numbers up to and including n
 function n_prime_numbers($n){
@@ -56,9 +58,17 @@ function n_prime_numbers($n){
     }
 
     //display output
+
+    // Parse the original text
+    $xml = TextFormatter::parse(var_dump($array));
+
+    // Render and output the HTML result
+    $html = TextFormatter::render($xml);
     echo '<pre>';
-    var_dump($array);
+    //print_r($html);
+    echo $html;
     echo '</pre>';
+
 
 }
 
@@ -67,5 +77,5 @@ $n = 100;
 
 //call function
 n_prime_numbers($n);  //find prime numbers from 1-100
- */
+
 
